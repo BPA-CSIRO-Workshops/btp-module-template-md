@@ -9,8 +9,8 @@ The template has been depolyed here: https://bpa-csiro-workshops.github.io/btp-m
 
 ## Github Repository
 
-The tutorials Github repository is here: https://github.com/BPA-CSIRO-Workshops/btp-manuals-md  
-The template GitHub repoitory is here: https://github.com/BPA-CSIRO-Workshops/btp-module-template-md
+The tutorials Github repo is here: https://github.com/BPA-CSIRO-Workshops/btp-manuals-md  
+The template GitHub repo is here: https://github.com/BPA-CSIRO-Workshops/btp-module-template-md
 
 ## How to work on them locally
 
@@ -95,8 +95,7 @@ well as an editor and it highlights files that have been updated.
 
 You should apply the BTP template in your .md file.
 
-The built version can be seen here: https://bpa-csiro-workshops.github.io/btp-module-template-md/
-
+The built version can be seen here: https://bpa-csiro-workshops.github.io/btp-module-template-md/modules/example/example/  
 The corresponding raw Markdown and underlying syntax for this can be viewed here:
 https://raw.githubusercontent.com/BPA-CSIRO-Workshops/btp-module-template-md/master/docs/modules/example/example.md  
 
