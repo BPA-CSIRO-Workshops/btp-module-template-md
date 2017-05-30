@@ -1,0 +1,289 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome!", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome", 
+            "text": "", 
+            "title": "Welcome!"
+        }, 
+        {
+            "location": "/modules/timetables/timetable_cancer/", 
+            "text": "Cancer Genomics Course\n\n\n\n\nMelbourne - 6\nth\n to 8\nth\n February 2017\n\n\n\n\nInstructors\n\n\n\n\n(K)atherine Champ - Bioplatforms Australia, Sydney\n\n\n(A)nn-Marie Patch - QIMR Berghofer, Brisbane\n\n\n(G)ayle Philip - Melbourne Bionformatics, Melbourne\n\n\n(E)rdahl Teber - CMRI, Sydney\n\n\n(S)onika Tyagi - AGRF, Melbourne\n\n\n\n\nTimetable\n\n\nDay 1\n\n\n6\nth\n February\n - \nLab 14 Seminar Room, 700 Swanston St, Carlton, Victoria\n\n\n\n\n\n\n\n\nTime\n\n\nTopic\n\n\nLinks\n\n\nInstructor\n\n\n\n\n\n\n\n\n\n\n9:00\n\n\nWelcome\n\n\n\n\nK\n\n\n\n\n\n\n9:15\n\n\nIntroduction to cancer genomics and NGS techniques \u2013 focus on DNA\n\n\n\n\nG\n\n\n\n\n\n\n10:15\n\n\nBreak\n\n\n\n\n\n\n\n\n\n\n10:30\n\n\nExperimental design (interactive/ice breaker/group activity) and caveats; considerations on processing capacities; 10 ways to ruin your experiment\n\n\n\n\n\n\n\n\n\n\n11:30\n\n\nCommand line intro (Unix, R) \u2013 L(15\n) / P(30\n)\n\n\n\n\n\n\n\n\n\n\n12:30\n\n\nLunch\n\n\n\n\n\n\n\n\n\n\n13:30\n\n\nRaw data - FASTQ format and QC\n\n\n\n\n\n\n\n\n\n\n14:00\n\n\nAlignment (L)\n\n\n\n\n\n\n\n\n\n\n14:30\n\n\nManipulation of BAM files and QC (P)\n\n\n\n\n\n\n\n\n\n\n15:00\n\n\nCoffee break\n\n\n\n\n\n\n\n\n\n\n15:15\n\n\nManipulation of BAM files and QC (P) (cont.)\n\n\n\n\n\n\n\n\n\n\n17:00\n\n\nQ\nA\n\n\n\n\nAll\n\n\n\n\n\n\n\n\nDay 2\n\n\n7\nth\n February\n - \nLab 14 Seminar Room, 700 Swanston St, Carlton, Victoria\n\n\n\n\n\n\n\n\nTime\n\n\nTopic\n\n\nLinks\n\n\nInstructor\n\n\n\n\n\n\n\n\n\n\n9:00\n\n\nSNV detection (review, germline vs somatic, tools, pitfalls, data visualization) \u2013 L/P. Indels \u2013 cover in SNV lecture + bonus exercises (P), specific challenges of indels analysis, tools\n\n\n\n\n\n\n\n\n\n\n9:45\n\n\nSNV detection (P)\n\n\n\n\n\n\n\n\n\n\n10:30\n\n\nCoffee break\n\n\n\n\n\n\n\n\n\n\n10:45\n\n\nVariants annotation and filtration (L) \u2013 tools landscape\n\n\n\n\n\n\n\n\n\n\n11:00\n\n\nVariants visualization (IGV), annotation and filtration (P)\n\n\n\n\n\n\n\n\n\n\n12:30\n\n\nLunch + coffee\n\n\n\n\n\n\n\n\n\n\n13:30\n\n\nCNV analysis using NGS data (L)\n\n\n\n\n\n\n\n\n\n\n14:15\n\n\nCNV analysis (P) \u2013 deletion/amplification, calling CNVs, visualization, interpretation\n\n\n\n\n\n\n\n\n\n\n15:00\n\n\nBreak\n\n\n\n\n\n\n\n\n\n\n15:15\n\n\nCNV analysis (P) \u2013 deletion/amplification, calling CNVs, visualization, interpretation (cont.)\n\n\n\n\n\n\n\n\n\n\n17:00\n\n\nQ\nA\n\n\n\n\nAll\n\n\n\n\n\n\n\n\nDay 3\n\n\n8\nth\n February\n - \nLab 14 Seminar Room, 700 Swanston St, Carlton, Victoria\n\n\n\n\n\n\n\n\nTime\n\n\nTopic\n\n\nLinks\n\n\nInstructor\n\n\n\n\n\n\n\n\n\n\n9:00\n\n\nSV analysis \u2013 breakpoints/fusion (L), tools\n\n\n\n\n\n\n\n\n\n\n9:45\n\n\nSV analysis \u2013 breakpoints/fusion (P)\n\n\n\n\n\n\n\n\n\n\n10:30\n\n\nCoffee break\n\n\n\n\n\n\n\n\n\n\n10:45\n\n\nSV analysis \u2013 breakpoints/fusion (P) (cont.)\n\n\n\n\n\n\n\n\n\n\n12:30\n\n\nLunch\n\n\n\n\n\n\n\n\n\n\n13:30\n\n\nDownstream analysis and interpretation (L) \u2013 Exploration of resources that can be used for this. E.g. databases (COSMIC, TCGA, etc.), integration with clinical information\n\n\n\n\n\n\n\n\n\n\n14:15\n\n\nDownstream analysis and interpretation (P)\n\n\n\n\n\n\n\n\n\n\n15:00\n\n\nCoffee break\n\n\n\n\n\n\n\n\n\n\n15:15\n\n\nDownstream analysis and interpretation (P) (cont.)\n\n\n\n\n\n\n\n\n\n\n16:00\n\n\nHow does it all link together? Integration of different data types (L)\n\n\n\n\nGuest\n\n\n\n\n\n\n16:45\n\n\nQ\nA, wrap up (how to access course\u2019s VM) \n survey\n\n\n\n\nAll", 
+            "title": "Timetable"
+        }, 
+        {
+            "location": "/modules/timetables/timetable_cancer/#cancer-genomics-course", 
+            "text": "Melbourne - 6 th  to 8 th  February 2017", 
+            "title": "Cancer Genomics Course"
+        }, 
+        {
+            "location": "/modules/timetables/timetable_cancer/#instructors", 
+            "text": "(K)atherine Champ - Bioplatforms Australia, Sydney  (A)nn-Marie Patch - QIMR Berghofer, Brisbane  (G)ayle Philip - Melbourne Bionformatics, Melbourne  (E)rdahl Teber - CMRI, Sydney  (S)onika Tyagi - AGRF, Melbourne", 
+            "title": "Instructors"
+        }, 
+        {
+            "location": "/modules/timetables/timetable_cancer/#timetable", 
+            "text": "", 
+            "title": "Timetable"
+        }, 
+        {
+            "location": "/modules/timetables/timetable_cancer/#day-1", 
+            "text": "6 th  February  -  Lab 14 Seminar Room, 700 Swanston St, Carlton, Victoria     Time  Topic  Links  Instructor      9:00  Welcome   K    9:15  Introduction to cancer genomics and NGS techniques \u2013 focus on DNA   G    10:15  Break      10:30  Experimental design (interactive/ice breaker/group activity) and caveats; considerations on processing capacities; 10 ways to ruin your experiment      11:30  Command line intro (Unix, R) \u2013 L(15 ) / P(30 )      12:30  Lunch      13:30  Raw data - FASTQ format and QC      14:00  Alignment (L)      14:30  Manipulation of BAM files and QC (P)      15:00  Coffee break      15:15  Manipulation of BAM files and QC (P) (cont.)      17:00  Q A   All", 
+            "title": "Day 1"
+        }, 
+        {
+            "location": "/modules/timetables/timetable_cancer/#day-2", 
+            "text": "7 th  February  -  Lab 14 Seminar Room, 700 Swanston St, Carlton, Victoria     Time  Topic  Links  Instructor      9:00  SNV detection (review, germline vs somatic, tools, pitfalls, data visualization) \u2013 L/P. Indels \u2013 cover in SNV lecture + bonus exercises (P), specific challenges of indels analysis, tools      9:45  SNV detection (P)      10:30  Coffee break      10:45  Variants annotation and filtration (L) \u2013 tools landscape      11:00  Variants visualization (IGV), annotation and filtration (P)      12:30  Lunch + coffee      13:30  CNV analysis using NGS data (L)      14:15  CNV analysis (P) \u2013 deletion/amplification, calling CNVs, visualization, interpretation      15:00  Break      15:15  CNV analysis (P) \u2013 deletion/amplification, calling CNVs, visualization, interpretation (cont.)      17:00  Q A   All", 
+            "title": "Day 2"
+        }, 
+        {
+            "location": "/modules/timetables/timetable_cancer/#day-3", 
+            "text": "8 th  February  -  Lab 14 Seminar Room, 700 Swanston St, Carlton, Victoria     Time  Topic  Links  Instructor      9:00  SV analysis \u2013 breakpoints/fusion (L), tools      9:45  SV analysis \u2013 breakpoints/fusion (P)      10:30  Coffee break      10:45  SV analysis \u2013 breakpoints/fusion (P) (cont.)      12:30  Lunch      13:30  Downstream analysis and interpretation (L) \u2013 Exploration of resources that can be used for this. E.g. databases (COSMIC, TCGA, etc.), integration with clinical information      14:15  Downstream analysis and interpretation (P)      15:00  Coffee break      15:15  Downstream analysis and interpretation (P) (cont.)      16:00  How does it all link together? Integration of different data types (L)   Guest    16:45  Q A, wrap up (how to access course\u2019s VM)   survey   All", 
+            "title": "Day 3"
+        }, 
+        {
+            "location": "/modules/setup_editing/mkdocs_setup/", 
+            "text": "Building and setting up mkdocs directory from scratch\n\n\n\n\nInstall mkdocs tools  \n\n\n\n\n1\npip install mkdocs markdown-include mkdocs-alabaster mkdocs-bootstrap python-markdown-math mkdocs-material pymdown-extensions pygments\n\n\n\n\n\n\n\n\nCreate new project\n\n\n\n\n1\npython -m mkdocs new btp-manuals-md\n\n\n\n\n\n\n\n\ncd into the /docs directory (automatically created) in the new project you created.\n\n\n\n\n1\ncd btp-manuals-md/docs\n\n\n\n\n\n\n\n\nCreate directories required\n\n\n\n\n1\n2\nmkdir media css js modules\nmkdir media/icons media/logos\n\n\n\n\n\n\n\n\n\n\nAdd any icons pngs or logo pngs to media/icons and  media/logos respectively.\n\n\n\n\n\n\nMake sure Workshop Information file preamble.md is located in docs directory\n\n\n\n\n\n\nCreate a directory for each module. In addition, each module should contain an images directory. This will make both module and image directory:\n\n\n\n\n\n\n1\n2\n3\nmkdir -p modules/btp-module-chip-seq/images\nmkdir -p modules/btp-module-ngs-cli/images\nmkdir -p modules/cancer-module-alignment/images\n\n\n\n\n\n\n\n\n\n\nCreate a markdown file for each module in each module directory in /docs\n  e.g. modules/btp-module-ngs-cli/commandline.md\n\n\n\n\n\n\nAny images for a module are located in the images directory in the module\n  e.g. modules/btp-module-ngs-cli/images/x.png\n\n\n\n\n\n\nEdit default mkdocs.yml file with themes, extensions, styling and javascripts\n\n\n\n\n\n\nEdit pages in mkdocs.yml to control what is displayed.\n\n\n\n\n\n\nEdit docs/index.md to contain welcome info\n\n\n\n\n\n\nAdd in any CSS files to docs/css folder\n\n\n\n\n\n\nAdd in JS files to docs/js folder\n\n\n\n\n\n\nDeploy to \npublic\n server\n\n\n\n\n\n\n1\nmkdocs gh-deploy --clean --message \nInitial commit", 
+            "title": "Initial Setup Instructions"
+        }, 
+        {
+            "location": "/modules/setup_editing/mkdocs_setup/#building-and-setting-up-mkdocs-directory-from-scratch", 
+            "text": "Install mkdocs tools     1 pip install mkdocs markdown-include mkdocs-alabaster mkdocs-bootstrap python-markdown-math mkdocs-material pymdown-extensions pygments    Create new project   1 python -m mkdocs new btp-manuals-md    cd into the /docs directory (automatically created) in the new project you created.   1 cd btp-manuals-md/docs    Create directories required   1\n2 mkdir media css js modules\nmkdir media/icons media/logos     Add any icons pngs or logo pngs to media/icons and  media/logos respectively.    Make sure Workshop Information file preamble.md is located in docs directory    Create a directory for each module. In addition, each module should contain an images directory. This will make both module and image directory:    1\n2\n3 mkdir -p modules/btp-module-chip-seq/images\nmkdir -p modules/btp-module-ngs-cli/images\nmkdir -p modules/cancer-module-alignment/images     Create a markdown file for each module in each module directory in /docs\n  e.g. modules/btp-module-ngs-cli/commandline.md    Any images for a module are located in the images directory in the module\n  e.g. modules/btp-module-ngs-cli/images/x.png    Edit default mkdocs.yml file with themes, extensions, styling and javascripts    Edit pages in mkdocs.yml to control what is displayed.    Edit docs/index.md to contain welcome info    Add in any CSS files to docs/css folder    Add in JS files to docs/js folder    Deploy to  public  server    1 mkdocs gh-deploy --clean --message  Initial commit", 
+            "title": "Building and setting up mkdocs directory from scratch"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/", 
+            "text": "BPA Workshops\n\n\nWorkshops run by BPA.\n\n\nDeployment\n\n\nThe tutorials have been deployed here: \nhttps://bpa-csiro-workshops.github.io/btp-manuals-md\n\nThe template has been depolyed here: \nhttps://bpa-csiro-workshops.github.io/btp-module-template-md/\n\n\nGithub Repository\n\n\nThe tutorials Github repository is here: \nhttps://github.com/BPA-CSIRO-Workshops/btp-manuals-md\n\nThe template GitHub repoitory is here: \nhttps://github.com/BPA-CSIRO-Workshops/btp-module-template-md\n\n\nHow to work on them locally\n\n\nWe are using the Python package \nMkDocs\n and the\n\nMaterial for MkDocs\n theme.\nOn OS X, if you haven\nt got commandline tools installed you can follow this\n\nguide\n.\n\n\nYou can install MkDocs and extensions into a virtualenv:\n\n\n1\n2\n3\nvirtualenv mkdocs_dev\nsource mkdocs_dev/bin/activate\npip install package_name\n\n\n\n\n\n\nAlternatively, if you have not installed in a virtualenv and do not have sudo\npermissions, you can install as a user only, using \nuser\n\n\n1\npip install --user package_name\n\n\n\n\n\n\nInstall the mkdocs tools needed\n\n\n1\npip install mkdocs markdown-include mkdocs-alabaster mkdocs-bootstrap python-markdown-math mkdocs-material pymdown-extensions pygments\n\n\n\n\n\n\nTo update a package\n\n\n1\npip install -U package_name\n\n\n\n\n\n\nClone the repo\n\n\n1\n2\ngit clone https://github.com/BPA-CSIRO-Workshops/btp-manuals-md\ncd btp-manuals-md\n\n\n\n\n\n\nGithub Desktop\n is an alternative for command line git.\n\n\nThe master document is a YAML file\n\n\nThis file contains the instructions of what to display.\n\n\n1\nless mkdocs.yml\n\n\n\n\n\n\nThe actual Markdown pages are in the \ndocs\n folder:\n\n\nIf making a new module from scratch\n\n\n1\n2\n3\ncd docs;\nmkdir module_name;\nmkdir module_name/images\n\n\n\n\n\n\nTo add a new page, say a page on the \nCanu\n assembler, find the right location and create a page.\nIn this case it would be \ndocs/modules/module_name/canu.md\n. Write the tutorial in that file, and then add the file to the\nmaster document \nmkdocs.yml\n in the correct section under pages:\n\n\nIf editing an existing module\n\n\nExisting modules are located in \nhttps://github.com/BPA-CSIRO-Workshops/btp-manuals-md/tree/master/docs/modules\n.\nNavigate to the appropriate module and directly edit the .md file. Images relating to\nthe .md file should be located in module_name/images\n\n\nYou do not have to add the module to \nmkdocs.yml\n as it would have previously been added.\n\n\nEditing markdown files\n\n\nYou can edit the .md file with any text editor. \nAtom\n works really\nwell as an editor and it highlights files that have been updated.\n\n\nBTP template\n\n\nYou should apply the BTP template in your .md file.\n\n\nThe built version can be seen here: \nhttps://bpa-csiro-workshops.github.io/btp-module-template-md/\n\n\nThe corresponding raw Markdown and underlying syntax for this can be viewed here:\n\nhttps://raw.githubusercontent.com/BPA-CSIRO-Workshops/btp-module-template-md/master/docs/modules/example/example.md\n  \n\n\nPlease feel free free to add to, or edit, the template here:\n\nhttps://github.com/BPA-CSIRO-Workshops/btp-module-template-md\n\n\nBrowse the site locally without deploying to public internet.\n\n\nIn same directory as mkdocs.yml file\n\n\n1\nmkdocs serve\n\n\n\n\nor\n\n1\npython -m mkdocs serve\n\n\n\n\n\nOpen your web browser to \nhttp://127.0.0.1:8000/\n and leave it open.\nThis will update automatically as you make changes to the documentation and allow you to view changes you have made.\n\n\nWhen you are happy, add it the repo\n\n\n1\n2\n3\ngit add docs/modules/module_name/canu.md\ngit commit -m \nAdded canu\n mkdocs.yml docs/modules/module_name/canu.md\ngit push origin master\n\n\n\n\nYour private local web version  \nhttp://127.0.0.1:8000/\n will also update.\n\n\nYou can then put in a pull request and admin will review your changes.\n\n\n(\nBTP Admin Step\n): To deploy the whole lot to the \npublic\n website\n\n\nImportant: Building the public website will be done by BTP Admin.\n\nYour changes will not be publicly seen until Admin has deployed the changes.\n\n\n1\nmkdocs gh-deploy --clean --message \nAdded canu\n\n\n\n\n\nThis first builds a web HTML version of our Markdown hierarchy into the \nsite/\n folder, then pushes it to a special\nbranch of the github repo called \ngh-pages\n which GitHub makes available at the public URL\n\nhttps://bpa-csiro-workshops.github.io/btp-manuals-md", 
+            "title": "Editing Instructions"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#bpa-workshops", 
+            "text": "Workshops run by BPA.", 
+            "title": "BPA Workshops"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#deployment", 
+            "text": "The tutorials have been deployed here:  https://bpa-csiro-workshops.github.io/btp-manuals-md \nThe template has been depolyed here:  https://bpa-csiro-workshops.github.io/btp-module-template-md/", 
+            "title": "Deployment"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#github-repository", 
+            "text": "The tutorials Github repository is here:  https://github.com/BPA-CSIRO-Workshops/btp-manuals-md \nThe template GitHub repoitory is here:  https://github.com/BPA-CSIRO-Workshops/btp-module-template-md", 
+            "title": "Github Repository"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#how-to-work-on-them-locally", 
+            "text": "We are using the Python package  MkDocs  and the Material for MkDocs  theme.\nOn OS X, if you haven t got commandline tools installed you can follow this guide .  You can install MkDocs and extensions into a virtualenv:  1\n2\n3 virtualenv mkdocs_dev\nsource mkdocs_dev/bin/activate\npip install package_name   Alternatively, if you have not installed in a virtualenv and do not have sudo\npermissions, you can install as a user only, using  user  1 pip install --user package_name", 
+            "title": "How to work on them locally"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#install-the-mkdocs-tools-needed", 
+            "text": "1 pip install mkdocs markdown-include mkdocs-alabaster mkdocs-bootstrap python-markdown-math mkdocs-material pymdown-extensions pygments   To update a package  1 pip install -U package_name", 
+            "title": "Install the mkdocs tools needed"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#clone-the-repo", 
+            "text": "1\n2 git clone https://github.com/BPA-CSIRO-Workshops/btp-manuals-md\ncd btp-manuals-md   Github Desktop  is an alternative for command line git.", 
+            "title": "Clone the repo"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#the-master-document-is-a-yaml-file", 
+            "text": "This file contains the instructions of what to display.  1 less mkdocs.yml", 
+            "title": "The master document is a YAML file"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#the-actual-markdown-pages-are-in-the-docs-folder", 
+            "text": "", 
+            "title": "The actual Markdown pages are in the docs folder:"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#if-making-a-new-module-from-scratch", 
+            "text": "1\n2\n3 cd docs;\nmkdir module_name;\nmkdir module_name/images   To add a new page, say a page on the  Canu  assembler, find the right location and create a page.\nIn this case it would be  docs/modules/module_name/canu.md . Write the tutorial in that file, and then add the file to the\nmaster document  mkdocs.yml  in the correct section under pages:", 
+            "title": "If making a new module from scratch"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#if-editing-an-existing-module", 
+            "text": "Existing modules are located in  https://github.com/BPA-CSIRO-Workshops/btp-manuals-md/tree/master/docs/modules .\nNavigate to the appropriate module and directly edit the .md file. Images relating to\nthe .md file should be located in module_name/images  You do not have to add the module to  mkdocs.yml  as it would have previously been added.", 
+            "title": "If editing an existing module"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#editing-markdown-files", 
+            "text": "You can edit the .md file with any text editor.  Atom  works really\nwell as an editor and it highlights files that have been updated.", 
+            "title": "Editing markdown files"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#btp-template", 
+            "text": "You should apply the BTP template in your .md file.  The built version can be seen here:  https://bpa-csiro-workshops.github.io/btp-module-template-md/  The corresponding raw Markdown and underlying syntax for this can be viewed here: https://raw.githubusercontent.com/BPA-CSIRO-Workshops/btp-module-template-md/master/docs/modules/example/example.md     Please feel free free to add to, or edit, the template here: https://github.com/BPA-CSIRO-Workshops/btp-module-template-md", 
+            "title": "BTP template"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#browse-the-site-locally-without-deploying-to-public-internet", 
+            "text": "In same directory as mkdocs.yml file  1 mkdocs serve  \nor 1 python -m mkdocs serve   Open your web browser to  http://127.0.0.1:8000/  and leave it open.\nThis will update automatically as you make changes to the documentation and allow you to view changes you have made.", 
+            "title": "Browse the site locally without deploying to public internet."
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#when-you-are-happy-add-it-the-repo", 
+            "text": "1\n2\n3 git add docs/modules/module_name/canu.md\ngit commit -m  Added canu  mkdocs.yml docs/modules/module_name/canu.md\ngit push origin master  \nYour private local web version   http://127.0.0.1:8000/  will also update.", 
+            "title": "When you are happy, add it the repo"
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#you-can-then-put-in-a-pull-request-and-admin-will-review-your-changes", 
+            "text": "", 
+            "title": "You can then put in a pull request and admin will review your changes."
+        }, 
+        {
+            "location": "/modules/setup_editing/editing/#btp-admin-step-to-deploy-the-whole-lot-to-the-public-website", 
+            "text": "Important: Building the public website will be done by BTP Admin. \nYour changes will not be publicly seen until Admin has deployed the changes.  1 mkdocs gh-deploy --clean --message  Added canu   \nThis first builds a web HTML version of our Markdown hierarchy into the  site/  folder, then pushes it to a special\nbranch of the github repo called  gh-pages  which GitHub makes available at the public URL https://bpa-csiro-workshops.github.io/btp-manuals-md", 
+            "title": "(BTP Admin Step): To deploy the whole lot to the public website"
+        }, 
+        {
+            "location": "/preamble/", 
+            "text": "Providing Feedback\n\n\nWhile we endeavour to deliver a workshop with quality content and\ndocumentation in a venue conducive to an exciting, well run hands-on\nworkshop with a bunch of knowledgeable and likable trainers, we know\nthere are things we could do better.\n\n\nWhilst we want to know what didn\u2019t quite hit the mark for you, what\nwould be most helpful and least depressing, would be for you to provide\nways to improve the workshop. i.e. constructive feedback. After all, if\nwe knew something wasn\u2019t going to work, we wouldn\u2019t have done it or put\nit into the workshop in the first place! Remember, we\u2019re experts in the\nfield of bioinformatics not experts in the field of biology!\n\n\nClearly, we also want to know what we did well! This gives us that \u201cfeel\ngood\u201d factor which will see us through those long days and nights in the\nlead up to such hands-on workshops!\n\n\nWith that in mind, we\u2019ll provide three really high tech mechanism\nthrough which you can provide anonymous feedback during the workshop:\n\n\n\n\n\n\nA sheet of paper, from a flip-chart, sporting a \u201chappy\u201d face and a\n\u201cnot so happy\u201d face. Armed with a stack of colourful post-it notes, your\nmission is to see how many comments you can stick on the \u201chappy\u201d side!\n\n\n\n\n\n\nSome empty ruled pages at the back of this handout. Use them for\nyour own personal notes or for write specific comments/feedback about\nthe workshop as it progresses.\n\n\n\n\n\n\nAn online post-workshop evaluation survey. We\u2019ll ask you to complete\nthis before you leave. If you\u2019ve used the blank pages at the back of\nthis handout to make feedback notes, you\u2019ll be able to provide more\nspecific and helpful feedback with the least amount of brain-drain!\n\n\n\n\n\n\nDocument Structure\n\n\nWe have provided you with an electronic copy of the workshop\u2019s hands-on\ntutorial documents. We have done this for two reasons: 1) you will have\nsomething to take away with you at the end of the workshop, and 2) you\ncan save time (mis)typing commands on the command line by using\ncopy-and-paste.\n\n\n\n\nWhile you could fly through the hands-on sessions doing copy-and-paste\nyou will learn more if you take the time, saved from not having to type\nall those commands, to understand what each command is doing!\n\n\n\n\nThe commands to enter at a terminal look something like this:\n\n\n1\ntophat --solexa-quals -g 2 --library-type fr-unstranded -j annotation/Danio_rerio.Zv9.66.spliceSites -o tophat/ZV9_2cells genome/ZV9 data/2cells_1.fastq data/2cells_2.fastq\n\n\n\n\n\n\nThe following styled code is not to be entered at a terminal, it is\nsimply to show you the syntax of the command. You must use your own\njudgement to substitute in the correct arguments, options, filenames etc\n\n\n1\ntophat [options]* \nindex_base\n \nreads_1\n \nreads_2\n\n\n\n\n\n\n\nThe following is an example how of R commands are styled:\n\n\n1\n2\n3\n4\n5\nR \n--\nno\n-\nsave\n\n\nlibrary\n(\nplotrix\n)\n\ndata \n-\n read.table\n(\nrun_25/stats.txt\n,\n header\n=\nTRUE\n)\n\nweighted.hist\n(\ndata\n$\nshort1_cov\n+\ndata\n$\nshort2_cov\n,\n data\n$\nlgth\n,\n breaks\n=\n0\n:\n70\n)\n\n\nq\n()\n\n\n\n\n\n\n\nThe following icons are used throughout the documentation\nto help you navigate around the document more easily:\n\n\n\n\nQuestion\n\n\nQuestions to answer.\n\n\n\n\n\n\nAnswer\n\n\nAnswers will be provided at the end of the workskop.\n\n\n\n\n\n\nImportant\n\n\nThis is important. \n\n\n\n\n\n\nSTOP\n\n\nWarning - STOP and read.\n\n\n\n\n\n\nBonus exercise\n\n\nBonus exercise for fast learners.\n\n\n\n\n\n\nAdvanced exercise\n\n\nAdvanced exercise for super-fast learners\n\n\n\n\nResources Used\n\n\nWe have provided you with an environment which contains all the tools\nand data you need for the duration of this workshop. However, we also\nprovide details about the tools and data used by each module at the\nstart of the respective module documentation.", 
+            "title": "Workshop Information"
+        }, 
+        {
+            "location": "/preamble/#providing-feedback", 
+            "text": "While we endeavour to deliver a workshop with quality content and\ndocumentation in a venue conducive to an exciting, well run hands-on\nworkshop with a bunch of knowledgeable and likable trainers, we know\nthere are things we could do better.  Whilst we want to know what didn\u2019t quite hit the mark for you, what\nwould be most helpful and least depressing, would be for you to provide\nways to improve the workshop. i.e. constructive feedback. After all, if\nwe knew something wasn\u2019t going to work, we wouldn\u2019t have done it or put\nit into the workshop in the first place! Remember, we\u2019re experts in the\nfield of bioinformatics not experts in the field of biology!  Clearly, we also want to know what we did well! This gives us that \u201cfeel\ngood\u201d factor which will see us through those long days and nights in the\nlead up to such hands-on workshops!  With that in mind, we\u2019ll provide three really high tech mechanism\nthrough which you can provide anonymous feedback during the workshop:    A sheet of paper, from a flip-chart, sporting a \u201chappy\u201d face and a\n\u201cnot so happy\u201d face. Armed with a stack of colourful post-it notes, your\nmission is to see how many comments you can stick on the \u201chappy\u201d side!    Some empty ruled pages at the back of this handout. Use them for\nyour own personal notes or for write specific comments/feedback about\nthe workshop as it progresses.    An online post-workshop evaluation survey. We\u2019ll ask you to complete\nthis before you leave. If you\u2019ve used the blank pages at the back of\nthis handout to make feedback notes, you\u2019ll be able to provide more\nspecific and helpful feedback with the least amount of brain-drain!", 
+            "title": "Providing Feedback"
+        }, 
+        {
+            "location": "/preamble/#document-structure", 
+            "text": "We have provided you with an electronic copy of the workshop\u2019s hands-on\ntutorial documents. We have done this for two reasons: 1) you will have\nsomething to take away with you at the end of the workshop, and 2) you\ncan save time (mis)typing commands on the command line by using\ncopy-and-paste.   While you could fly through the hands-on sessions doing copy-and-paste\nyou will learn more if you take the time, saved from not having to type\nall those commands, to understand what each command is doing!   The commands to enter at a terminal look something like this:  1 tophat --solexa-quals -g 2 --library-type fr-unstranded -j annotation/Danio_rerio.Zv9.66.spliceSites -o tophat/ZV9_2cells genome/ZV9 data/2cells_1.fastq data/2cells_2.fastq   The following styled code is not to be entered at a terminal, it is\nsimply to show you the syntax of the command. You must use your own\njudgement to substitute in the correct arguments, options, filenames etc  1 tophat [options]*  index_base   reads_1   reads_2    The following is an example how of R commands are styled:  1\n2\n3\n4\n5 R  -- no - save  library ( plotrix ) \ndata  -  read.table ( run_25/stats.txt ,  header = TRUE ) \nweighted.hist ( data $ short1_cov + data $ short2_cov ,  data $ lgth ,  breaks = 0 : 70 )  q ()    The following icons are used throughout the documentation\nto help you navigate around the document more easily:   Question  Questions to answer.    Answer  Answers will be provided at the end of the workskop.    Important  This is important.     STOP  Warning - STOP and read.    Bonus exercise  Bonus exercise for fast learners.    Advanced exercise  Advanced exercise for super-fast learners", 
+            "title": "Document Structure"
+        }, 
+        {
+            "location": "/preamble/#resources-used", 
+            "text": "We have provided you with an environment which contains all the tools\nand data you need for the duration of this workshop. However, we also\nprovide details about the tools and data used by each module at the\nstart of the respective module documentation.", 
+            "title": "Resources Used"
+        }, 
+        {
+            "location": "/modules/example/example/", 
+            "text": "Data Quality\n\n\n\n\n\nKey Learning Outcomes\n\n\nAfter completing this practical the trainee should be able to:\n\n\n\n\n\n\nAssess the overall quality of NGS (FastQ format) sequence reads\n\n\n\n\n\n\nVisualise the quality, and other associated matrices, of reads to\n  decide on filters and cutoffs for cleaning up data ready for downstream\n  analysis\n\n\n\n\n\n\nClean up adaptors and pre-process the sequence data for further analysis\n\n\n\n\n\n\nResources\n\n\nTools\n\n\n\n\nFastQC:\n\n\nhttp://www.bioinformatics.babraham.ac.uk/projects/fastqc/\n\n\nFASTX-Toolkit:\n\n\nhttp://hannonlab.cshl.edu/fastx_toolkit/\n\n\nSkewer:\n\n\nhttp://sourceforge.net/projects/skewer/\n\n\n\n\nLinks\n\n\n\n\nFASTQ Encoding\n\n\n\n\nIntroduction\n\n\nGoing on a blind date with your read set? For a better understanding of\nthe consequences please check the data quality!\n\n\nFor the purpose of this tutorial we are focusing only on Illumina\nsequencing which uses \u2019sequence by synthesis\u2019 technology in a highly\nparallel fashion. Although Illumina high throughput sequencing provides\nhighly accurate sequence data, several sequence artifacts, including\nbase calling errors and small insertions/deletions, poor quality reads\nand primer/adapter contamination are quite common in the high throughput\nsequencing data. The primary errors are substitution errors. The error\nrates can vary from 0.5-2.0% with errors mainly rising in frequency at\nthe 3\u2019 ends of reads.\n\n\nOne way to investigate sequence data quality is to visualize the quality\nscores and other metrics in a compact manner to get an idea about the\nquality of a read data set. Read data sets can be improved by pre\nprocessing in different ways like trimming off low quality bases,\ncleaning up any sequencing adapters, removing PCR duplicates and\nscreening for contamination. We can also look at other statistics such\nas, sequence length distribution, base composition, sequence complexity,\npresence of ambiguous bases etc. to assess the overall quality of the\ndata set.\n\n\nHighly redundant coverage (\n15X) of the genome can be used to correct\nsequencing errors in the reads before assembly. Various k-mer based\nerror correction methods exist but are beyond the scope of this\ntutorial.\n\n\nContent\n\n\nTables\n\n\n\n\n\n\n\n\nLeft align\n\n\nRight align\n\n\nCenter align\n\n\n\n\n\n\n\n\n\n\nThis\n\n\nThis\n\n\nThis\n\n\n\n\n\n\ncolumn\n\n\ncolumn\n\n\ncolumn\n\n\n\n\n\n\nwill\n\n\nwill\n\n\nwill\n\n\n\n\n\n\nbe\n\n\nbe\n\n\nbe\n\n\n\n\n\n\nleft\n\n\nright\n\n\ncenter\n\n\n\n\n\n\naligned\n\n\naligned\n\n\naligned\n\n\n\n\n\n\n\n\nCode\n\n\nDifferent people have different opinions on whether it is a good idea to provide the commands for\ntrainees to copy-and-paste. In our experience, there is a huge amount of time wasted by novices\ntyping commands incorrectly or changing filenames which affects commands you might run later on. We\nalso think that it\ns a good idea to pose regular questions or ask the trainees to modify a previous\ncommand. This way you can catch out those who are just trying to get ahead by blindly\ncopying-and-pasting.\n\n\nA nicely formatted, copy-and-pastable command is given below:\n\n\n1\n2\n3\ncd ~/QC\nfastx_clipper -h\nfastx_clipper -v -Q 33 -l 20 -M 15 -a GATCGGAAGAGCGGTTCAGCAGGAATGCCGAG -i bad_example.fastq -o bad_example_clipped.fastq\n\n\n\n\n\n\nMaths\n\n\nInserting mathematical symbols can be done using mdx_math.\n\n\nHere is an equation:\n\n\n\n\n\\frac{n!}{k!(n - k)!} = \\binom{n}{k}\n\n\n\n\nHere is some inline maths: \n\\sqrt[n]{1 + x + x^2 + \\ldots}\n\n\n\n\nor\n\n\n\n\nQ(A) =-10 log10(P(\\sim A))\n\n\n\n\nFigures\n\n\n\n\n\n\nFigure XX\n - Per base sequence quality plot for qcdemo_R2.fastq.gz\n\n\n\n\nBlock-styled content\n\n\nQuestion\n\n\n\n\nQuestion\n\n\nHere is a note or Question.\n\n\n\n\n\n\nWhat is the answer?  \n\n\n\n\n\n\nBonus exercise\n\n\nBonus exercise for fast learners.\n\n\n\n\n\n\nAdvanced exercise\n\n\nAdvanced exercise for super-fast learners      \n\n\n\n\nImportant\n\n\n\n\nImportant\n\n\nSome detail about important thing.\nSome more detail.\n\n\n\n\nHint\n\n\n\n\nHint\n\n\nHere is a hint\n\n\n\n\nAnswer\n\n\n\n\nAnswer\n\n\nHere is an answer.\n\n\n\n\n\n\nHere is an answer.    \n\n\n\n\nStop\n\n\n\n\nSTOP\n\n\nYou should not do this part.\n\n\n\n\nSee all types of coloured text here: (\nhttps://squidfunk.github.io/mkdocs-material/extensions/admonition/#types/\n)\n\n\nClick and Reveal text\n\n\nContent hidden until clicked\n\n\nQuestion\nHere\ns some content.\nContent shown until clicked closed\n\n\nQuestion\nHere\ns some content.    \nQuestions and Answers\n\n\nSequential Question and Answer.\n\n\n\n\nQuestion\n\n\nWhat is the answer?\n\n\n\n\nAnswer\nHere is the answer\n\n\nor is the following better?\n\n\n\n\nQuestion\n\n\nWhat is the answer?\n\n\n\n\nAnswer\nAnswer\nHere is an answer\nSequential Question, Hint and Answer\n\n\n\n\nQuestion\n\n\nWhat is the answer?\n\n\n\n\nHint\nHere is a hint\n\n\nAnswer\nHere is an answer\n\n\nor is the following better?\n\n\n\n\nQuestion\n\n\nWhat is the answer?\n\n\n\n\nHint\nHint\nHere is a hint.\nAnswer\nAnswer\nHere is an answer\nThe \nspoilers extension\n\nalso has the functionality to nest (\nhttps://facelessuser.github.io/pymdown-extensions/extensions/spoilers/#examples\n)\nwhich may be something to look into in the future.\n\n\nFormatting examples\n\n\nThis is in italics\n\n\nThis is bold\n\n\nWhen you do want to insert a break tag using Markdown, you end a line with two or more spaces, then type return.", 
+            "title": "Markdown Template"
+        }, 
+        {
+            "location": "/modules/example/example/#data-quality", 
+            "text": "", 
+            "title": "Data Quality"
+        }, 
+        {
+            "location": "/modules/example/example/#key-learning-outcomes", 
+            "text": "After completing this practical the trainee should be able to:    Assess the overall quality of NGS (FastQ format) sequence reads    Visualise the quality, and other associated matrices, of reads to\n  decide on filters and cutoffs for cleaning up data ready for downstream\n  analysis    Clean up adaptors and pre-process the sequence data for further analysis", 
+            "title": "Key Learning Outcomes"
+        }, 
+        {
+            "location": "/modules/example/example/#resources", 
+            "text": "", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/modules/example/example/#tools", 
+            "text": "FastQC:  http://www.bioinformatics.babraham.ac.uk/projects/fastqc/  FASTX-Toolkit:  http://hannonlab.cshl.edu/fastx_toolkit/  Skewer:  http://sourceforge.net/projects/skewer/", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/modules/example/example/#links", 
+            "text": "FASTQ Encoding", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/modules/example/example/#introduction", 
+            "text": "Going on a blind date with your read set? For a better understanding of\nthe consequences please check the data quality!  For the purpose of this tutorial we are focusing only on Illumina\nsequencing which uses \u2019sequence by synthesis\u2019 technology in a highly\nparallel fashion. Although Illumina high throughput sequencing provides\nhighly accurate sequence data, several sequence artifacts, including\nbase calling errors and small insertions/deletions, poor quality reads\nand primer/adapter contamination are quite common in the high throughput\nsequencing data. The primary errors are substitution errors. The error\nrates can vary from 0.5-2.0% with errors mainly rising in frequency at\nthe 3\u2019 ends of reads.  One way to investigate sequence data quality is to visualize the quality\nscores and other metrics in a compact manner to get an idea about the\nquality of a read data set. Read data sets can be improved by pre\nprocessing in different ways like trimming off low quality bases,\ncleaning up any sequencing adapters, removing PCR duplicates and\nscreening for contamination. We can also look at other statistics such\nas, sequence length distribution, base composition, sequence complexity,\npresence of ambiguous bases etc. to assess the overall quality of the\ndata set.  Highly redundant coverage ( 15X) of the genome can be used to correct\nsequencing errors in the reads before assembly. Various k-mer based\nerror correction methods exist but are beyond the scope of this\ntutorial.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/modules/example/example/#content", 
+            "text": "", 
+            "title": "Content"
+        }, 
+        {
+            "location": "/modules/example/example/#tables", 
+            "text": "Left align  Right align  Center align      This  This  This    column  column  column    will  will  will    be  be  be    left  right  center    aligned  aligned  aligned", 
+            "title": "Tables"
+        }, 
+        {
+            "location": "/modules/example/example/#code", 
+            "text": "Different people have different opinions on whether it is a good idea to provide the commands for\ntrainees to copy-and-paste. In our experience, there is a huge amount of time wasted by novices\ntyping commands incorrectly or changing filenames which affects commands you might run later on. We\nalso think that it s a good idea to pose regular questions or ask the trainees to modify a previous\ncommand. This way you can catch out those who are just trying to get ahead by blindly\ncopying-and-pasting.  A nicely formatted, copy-and-pastable command is given below:  1\n2\n3 cd ~/QC\nfastx_clipper -h\nfastx_clipper -v -Q 33 -l 20 -M 15 -a GATCGGAAGAGCGGTTCAGCAGGAATGCCGAG -i bad_example.fastq -o bad_example_clipped.fastq", 
+            "title": "Code"
+        }, 
+        {
+            "location": "/modules/example/example/#maths", 
+            "text": "Inserting mathematical symbols can be done using mdx_math.  Here is an equation:   \\frac{n!}{k!(n - k)!} = \\binom{n}{k}   Here is some inline maths:  \\sqrt[n]{1 + x + x^2 + \\ldots}   or   Q(A) =-10 log10(P(\\sim A))", 
+            "title": "Maths"
+        }, 
+        {
+            "location": "/modules/example/example/#figures", 
+            "text": "Figure XX  - Per base sequence quality plot for qcdemo_R2.fastq.gz", 
+            "title": "Figures"
+        }, 
+        {
+            "location": "/modules/example/example/#block-styled-content", 
+            "text": "", 
+            "title": "Block-styled content"
+        }, 
+        {
+            "location": "/modules/example/example/#question", 
+            "text": "Question  Here is a note or Question.    What is the answer?      Bonus exercise  Bonus exercise for fast learners.    Advanced exercise  Advanced exercise for super-fast learners", 
+            "title": "Question"
+        }, 
+        {
+            "location": "/modules/example/example/#important", 
+            "text": "Important  Some detail about important thing.\nSome more detail.", 
+            "title": "Important"
+        }, 
+        {
+            "location": "/modules/example/example/#hint", 
+            "text": "Hint  Here is a hint", 
+            "title": "Hint"
+        }, 
+        {
+            "location": "/modules/example/example/#answer", 
+            "text": "Answer  Here is an answer.    Here is an answer.", 
+            "title": "Answer"
+        }, 
+        {
+            "location": "/modules/example/example/#stop", 
+            "text": "STOP  You should not do this part.   See all types of coloured text here: ( https://squidfunk.github.io/mkdocs-material/extensions/admonition/#types/ )", 
+            "title": "Stop"
+        }, 
+        {
+            "location": "/modules/example/example/#click-and-reveal-text", 
+            "text": "", 
+            "title": "Click and Reveal text"
+        }, 
+        {
+            "location": "/modules/example/example/#content-hidden-until-clicked", 
+            "text": "Question Here s some content.", 
+            "title": "Content hidden until clicked"
+        }, 
+        {
+            "location": "/modules/example/example/#content-shown-until-clicked-closed", 
+            "text": "Question Here s some content.", 
+            "title": "Content shown until clicked closed"
+        }, 
+        {
+            "location": "/modules/example/example/#questions-and-answers", 
+            "text": "", 
+            "title": "Questions and Answers"
+        }, 
+        {
+            "location": "/modules/example/example/#sequential-question-and-answer", 
+            "text": "Question  What is the answer?   Answer Here is the answer  or is the following better?   Question  What is the answer?   Answer Answer Here is an answer", 
+            "title": "Sequential Question and Answer."
+        }, 
+        {
+            "location": "/modules/example/example/#sequential-question-hint-and-answer", 
+            "text": "Question  What is the answer?   Hint Here is a hint  Answer Here is an answer  or is the following better?   Question  What is the answer?   Hint Hint Here is a hint. Answer Answer Here is an answer The  spoilers extension \nalso has the functionality to nest ( https://facelessuser.github.io/pymdown-extensions/extensions/spoilers/#examples )\nwhich may be something to look into in the future.", 
+            "title": "Sequential Question, Hint and Answer"
+        }, 
+        {
+            "location": "/modules/example/example/#formatting-examples", 
+            "text": "This is in italics  This is bold  When you do want to insert a break tag using Markdown, you end a line with two or more spaces, then type return.", 
+            "title": "Formatting examples"
+        }
+    ]
+}
