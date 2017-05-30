@@ -270,8 +270,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#clone-the-repo" title="Clone the repo" class="md-nav__link">
-    Clone the repo
+  <a href="#fork-and-cloning-the-repo" title="Fork and cloning the repo" class="md-nav__link">
+    Fork and cloning the repo
   </a>
   
 </li>
@@ -339,8 +339,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#you-can-then-put-in-a-pull-request-and-admin-will-review-your-changes" title="You can then put in a pull request and admin will review your changes." class="md-nav__link">
-    You can then put in a pull request and admin will review your changes.
+  <a href="#pushing-changes-and-pull-requests" title="Pushing changes and pull requests" class="md-nav__link">
+    Pushing changes and pull requests
   </a>
   
 </li>
@@ -440,8 +440,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#clone-the-repo" title="Clone the repo" class="md-nav__link">
-    Clone the repo
+  <a href="#fork-and-cloning-the-repo" title="Fork and cloning the repo" class="md-nav__link">
+    Fork and cloning the repo
   </a>
   
 </li>
@@ -509,8 +509,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#you-can-then-put-in-a-pull-request-and-admin-will-review-your-changes" title="You can then put in a pull request and admin will review your changes." class="md-nav__link">
-    You can then put in a pull request and admin will review your changes.
+  <a href="#pushing-changes-and-pull-requests" title="Pushing changes and pull requests" class="md-nav__link">
+    Pushing changes and pull requests
   </a>
   
 </li>
@@ -580,16 +580,20 @@ permissions, you can install as a user only, using &ndash;user</p>
 </pre></div>
 </td></tr></table>
 
-<h3 id="clone-the-repo">Clone the repo<a class="headerlink" href="#clone-the-repo" title="Permanent link">&para;</a></h3>
+<h3 id="fork-and-cloning-the-repo">Fork and cloning the repo<a class="headerlink" href="#fork-and-cloning-the-repo" title="Permanent link">&para;</a></h3>
+<p>We will be using a fork and pull collaborative model: <a href="https://github.com/BPA-CSIRO-Workshops/btp-workshop-template#fork-and-pull-collaborative-model">https://github.com/BPA-CSIRO-Workshops/btp-workshop-template#fork-and-pull-collaborative-model</a></p>
+<p>First fork <a href="https://github.com/BPA-CSIRO-Workshops/btp-manuals-md">https://github.com/BPA-CSIRO-Workshops/btp-manuals-md</a> to your own GitHub account.  </p>
+<p>You can then clone the repo from your GitHub account</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git clone https://github.com/BPA-CSIRO-Workshops/btp-manuals-md
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git clone https://github.com/*Your_GitHub*/btp-manuals-md
 cd btp-manuals-md
 </pre></div>
 </td></tr></table>
 
-<p><a href="https://desktop.github.com/">Github Desktop</a> is an alternative for command line git.</p>
+<p><a href="https://desktop.github.com/">GitHub Desktop</a> is an alternative for command line git.</p>
 <h3 id="the-master-document-is-a-yaml-file">The master document is a YAML file<a class="headerlink" href="#the-master-document-is-a-yaml-file" title="Permanent link">&para;</a></h3>
-<p>This file contains the instructions of what to display.</p>
+<p>This file contains the instructions of what to display. It has already been configured for BPA so shouldn&rsquo;t require
+any editing unless a new module is being added or new styling is required.</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>less mkdocs.yml
 </pre></div>
 </td></tr></table>
@@ -637,12 +641,14 @@ This will update automatically as you make changes to the documentation and allo
 <p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git add docs/modules/module_name/canu.md
-git commit -m &quot;Added canu&quot; mkdocs.yml docs/modules/module_name/canu.md
+git commit -m &quot;Added canu&quot; docs/modules/module_name/canu.md
 git push origin master
 </pre></div>
 </td></tr></table>
 Your private local web version  <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> will also update.</p>
-<h3 id="you-can-then-put-in-a-pull-request-and-admin-will-review-your-changes">You can then put in a pull request and admin will review your changes.<a class="headerlink" href="#you-can-then-put-in-a-pull-request-and-admin-will-review-your-changes" title="Permanent link">&para;</a></h3>
+<h3 id="pushing-changes-and-pull-requests">Pushing changes and pull requests<a class="headerlink" href="#pushing-changes-and-pull-requests" title="Permanent link">&para;</a></h3>
+<p>Once you have added it to the repo, you can push changes to the repo in your own GitHub account and
+can then put in a pull request and BTP admin will review your changes.</p>
 <h3 id="btp-admin-step-to-deploy-the-whole-lot-to-the-public-website">(<strong>BTP Admin Step</strong>): To deploy the whole lot to the <em>public</em> website<a class="headerlink" href="#btp-admin-step-to-deploy-the-whole-lot-to-the-public-website" title="Permanent link">&para;</a></h3>
 <p><strong><em>Important: Building the public website will be done by BTP Admin.<br />
 Your changes will not be publicly seen until Admin has deployed the changes.</em></strong></p>
