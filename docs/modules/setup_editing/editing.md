@@ -46,18 +46,25 @@ To update a package
 pip install -U package_name
 ```
 
-### Clone the repo
+### Fork and cloning the repo
+
+We will be using a fork and pull collaborative model: https://github.com/BPA-CSIRO-Workshops/btp-workshop-template#fork-and-pull-collaborative-model
+
+First fork https://github.com/BPA-CSIRO-Workshops/btp-manuals-md to your own GitHub account.  
+
+You can then clone the repo from your GitHub account
 
 ```
-git clone https://github.com/BPA-CSIRO-Workshops/btp-manuals-md
+git clone https://github.com/*Your_GitHub*/btp-manuals-md
 cd btp-manuals-md
 ```
 
-[Github Desktop](https://desktop.github.com/) is an alternative for command line git.
+[GitHub Desktop](https://desktop.github.com/) is an alternative for command line git.
 
 ### The master document is a YAML file
 
-This file contains the instructions of what to display.
+This file contains the instructions of what to display. It has already been configured for BPA so shouldn't require
+any editing unless a new module is being added or new styling is required.
 
 ```
 less mkdocs.yml
@@ -119,14 +126,18 @@ This will update automatically as you make changes to the documentation and allo
 
 
 ### When you are happy, add it the repo
+
 ```
 git add docs/modules/module_name/canu.md
-git commit -m "Added canu" mkdocs.yml docs/modules/module_name/canu.md
+git commit -m "Added canu" docs/modules/module_name/canu.md
 git push origin master
 ```
 Your private local web version  http://127.0.0.1:8000/ will also update.
 
-### You can then put in a pull request and admin will review your changes.
+### Pushing changes and pull requests
+
+Once you have added it to the repo, you can push changes to the repo in your own GitHub account and
+can then put in a pull request and BTP admin will review your changes.
 
 ### (**BTP Admin Step**): To deploy the whole lot to the *public* website
 
