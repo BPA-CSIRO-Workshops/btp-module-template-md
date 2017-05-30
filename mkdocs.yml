@@ -1,0 +1,63 @@
+site_name: Markdown Template for BPA
+site_description: This is the markdown template for BPA
+site_author: Author1, Author2
+
+#site_url: 'https://bpa-csiro-workshops.github.io/'
+
+copyright: '&copy; The authors; 2017-'
+
+#Documentation and theme
+theme: material
+
+# Options
+extra:
+  palette:
+    primary: 'indigo'
+    accent: 'light blue'
+
+  feature:
+    tabs: true
+
+  logo: 'media/logos/bpalogo.png'
+
+  site_favicon: 'media/logos/bpalogo.png'
+
+markdown_extensions:
+    - admonition
+    - smarty
+    - tables
+    - markdown_include.include
+    - codehilite(linenums=true)
+#    - codehilite
+    - toc(permalink=true)
+    - mdx_math
+    - pymdownx.betterem(smart_enable=all)
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist(custom_checkbox=true)
+    - pymdownx.tilde
+    - pymdownx.spoilers
+
+extra_css:
+    #- css/extra.css
+    - css/spoilers.css
+
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    - js/spoilers.js
+
+pages:
+- Home: index.md
+- Timetable: modules/timetables/timetable_cancer.md
+- Initial Setup Instructions: modules/setup_editing/mkdocs_setup.md
+- Editing Instructions: modules/setup_editing/editing.md
+#- ModuleA:
+#    - ExampleA: modules/example.md
+#    - ExampleB: modules/example.md
+- Workshop Information: preamble.md
+- Markdown Template: modules/example/example.md
